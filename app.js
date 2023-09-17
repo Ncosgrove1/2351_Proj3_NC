@@ -1,5 +1,3 @@
-const name = "Nathan is very loud" ;
-
 console.log("Below is a simple function that is envoked")
 
 function repeat() {
@@ -18,7 +16,25 @@ console.log(num1 + num2)
 
 adder(60, 40);
 
+console.log("Below is another funciton with parameters, however it is written slighlty different")
+
+function multiply(a, b = 4) {
+ return a * b;
+  }
+  
+  console.log(multiply(5)); 
+
 
 function changetext() {
     const button = document.getElementById("btn").innerHTML = "See how the text changed!";
     }
+
+
+    const bird = {
+        Name: "BlueJay",
+        Color: "Blue",
+        Scientificname: "Cyanocitta cristata",
+        Family: "Corvidae",
+        Domain: "Eukaryota"
+
+      };
