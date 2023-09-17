@@ -22,7 +22,7 @@ function multiply(a, b = 4) {
  return a * b;
   }
   
-  console.log(multiply(5)); 
+  console.log(multiply(7)); 
 
 
 function changetext() {
@@ -36,5 +36,7 @@ function changetext() {
         Scientificname: "Cyanocitta cristata",
         Family: "Corvidae",
         Domain: "Eukaryota"
-
       };
+
+      document.getElementById("Bird1").innerHTML ="This bird is a " +
+      bird.Name + ", which is scientifically known as ," + bird.Scientificname;
