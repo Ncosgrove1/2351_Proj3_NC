@@ -24,6 +24,7 @@ function multiply(a, b = 4) {
   
   console.log(multiply(7)); 
 
+//This script is for the button to help show the event being passed//
 
 function changetext() {
     const button = document.getElementById("btn").innerHTML = "See how the text changed!";
